@@ -1,0 +1,20 @@
+{
+  "name": "@xsale/demo",
+  "version": "1.0.0-beta.01",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "description": "@xsale/demo",
+  "private": false,
+  "sideEffects": false,
+  "files": [
+    "lib",
+    "es",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rimraf es && rimraf lib && rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
